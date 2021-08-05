@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.bg-hu {
+  background: #00843D !important;
+}
+
+.logo {
+  font-family: 'Inconsolata', monospace !important;
+}
+
+.navbar {
+  font-size: 1rem;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  font-size: 1.3rem;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.nav-link,
+.dropdown-item {
+  text-decoration: none;
+  color: #ddd !important;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  color: #fff !important;
+}
+
+.dropdown-item:hover {
+  background-color: #00843D;
+}
+
+.active {
+  font-weight: 600;
+  color: #fff !important;
+}
+
+#page-title {
+  margin-top: 8rem;
+}
+
+.modal-body {
+  padding: 0 !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+.modal-content {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  border: 3px solid #222 !important;
+}
+
+.modal-content .modal-footer .btn {
+  background-color: #666 !important;
+  -webkit-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.modal-content .modal-footer .btn:hover, .modal-content .modal-footer .btn:focus {
+  background-color: #00843D !important;
+}
+
+img[data-target] {
+  cursor: pointer;
+}
+
+footer * {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .logo {
+  font-size: 1.3rem;
+  font-weight: 400;
+  -webkit-transition: font-weight 0.3s ease-in-out;
+  transition: font-weight 0.3s ease-in-out;
+}
+
+footer .logo:hover {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.jumbotron {
+  background: url("../media/ulaz.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  border-radius: 0;
+  height: 100vh;
+  line-height: 4;
+}
+
+.jumbotron .logo {
+  font-size: 5rem;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .jumbotron {
+    background-attachment: scroll;
+  }
+  .jumbotron .logo {
+    font-size: 3.5rem;
+  }
+  .jumbotron p {
+    font-size: 1rem;
+  }
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper:hover, .wrapper:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+#boxes {
+  background-color: #e8e8e8;
+  min-height: 100vh;
+}
+
+#boxes > div:first-child {
+  background-color: #fff;
+}
+
+#boxes .box {
+  color: #000;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+#boxes .box img {
+  max-width: 450px;
+  height: auto;
+}
+
+#boxes .box p {
+  max-width: 450px;
+}
+
+#boxes .box:hover, #boxes .box:focus {
+  text-decoration: none;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+#boxes div > p {
+  font-size: 1.6rem;
+}
+
+#boxes div > p > span {
+  color: #999;
+}
+
+@media (max-width: 860px) {
+  #boxes div > p {
+    font-size: 1.2rem;
+  }
+}
+
+#boxes .b-top {
+  border-top: 1px solid #999;
+}
+
+#boxes #boxes-link {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 2.5;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #00843D;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#boxes #boxes-link:hover, #boxes #boxes-link:focus {
+  text-decoration: none;
+  background-color: #006b31;
+}
+
+@media (max-width: 860px) {
+  #boxes #boxes-link {
+    font-size: 1.2rem;
+  }
+}
+
+#showcase.container-fluid {
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+#showcase img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#about .container-fluid {
+  width: 70%;
+}
+
+#about .container-fluid p {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+@media (max-width: 1200px) {
+  #about .container-fluid {
+    width: 95%;
+  }
+  #about .container-fluid p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+  }
+}
+
+#about #people div .logo {
+  font-size: 1.3rem;
+}
+
+#about #people div .titula {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#contact .text-center {
+  font-size: 1.2rem;
+}
+
+#contact .logo {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+#map {
+  height: 45vh;
+}
+
+.service-section h3 {
+  font-size: 1.7rem;
+}
+
+.service-section .service {
+  max-width: 750px;
+}
+
+.service-section .service h5 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.service-section .service p {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+#projektiranje .service {
+  max-width: 600px;
+}
+/*# sourceMappingURL=main.css.map */

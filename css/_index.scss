@@ -1,0 +1,102 @@
+// Jumbotron
+.jumbotron {
+  background: url('../media/ulaz.jpg') no-repeat center center/cover;
+	background-attachment: fixed;
+  border-radius: 0;
+  height: 100vh;
+  line-height: 4;
+  .logo {
+    font-size: 5rem;
+	}
+  p {
+    font-size: 1.5rem;
+	}
+	@media(max-width: 768px) {
+		background-attachment: scroll;
+		.logo {
+			font-size: 3.5rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+	}
+}
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+  color: #000;
+	&:hover,
+	&:focus {
+		background-color: rgba(255, 255, 255, 0.7);
+		text-decoration: none;
+		color: #000;
+		cursor: pointer;
+	}
+}
+// Boxes
+#boxes {
+	background-color: $bgLight;
+	min-height: 100vh;
+	& > div:first-child {
+		background-color: #fff;
+	}
+	.box {
+		color: #000;
+		transition: transform 0.3s ease-in-out;
+		img {
+			max-width: 450px;
+			height: auto;
+		}
+		p {
+			max-width: 450px;
+		}
+		&:hover,
+		&:focus {
+			text-decoration: none;
+			transform: scale(1.01);
+		}
+	}
+	div > p {
+		& > span {
+			color: #999;
+		}
+		font-size: 1.6rem;
+		@media(max-width: 860px) {
+			font-size: 1.2rem;
+		}
+	}
+	.b-top {
+		border-top: 1px solid #999;
+	}
+	#boxes-link {
+		font-size: 1.6rem;
+		font-weight: 600;
+		color: #fff;
+		line-height: 2.5;
+	  // border: 1px solid #aaa;
+		border-radius: 10px;
+		box-sizing: border-box;
+    background-color: $bgHu;
+		transition: background-color 0.3s ease-in-out;
+		&:hover,
+		&:focus {
+			text-decoration: none;
+      background-color: darken($bgHu, 5%);
+		}
+		@media(max-width: 860px) {
+			font-size: 1.2rem;
+		}
+	}
+}
+// Grid - short reference gallery
+#showcase {
+	&.container-fluid {
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+	}
+	img {
+		object-fit: cover;
+	}
+}

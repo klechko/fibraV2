@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>Mysterious mood created by white light in the window, subtle illuminated floor and total darkness around</caption>
+  <note>Mysterious mood created by white light in the window, subtle illuminated floor and total darkness around or Empty room with dramatic light entering the window.</note>
+  <place/>
+  <categories>
+    <category value="window"/>
+    <category value="dark"/>
+    <category value="light"/>
+    <category value="room"/>
+    <category value="black"/>
+    <category value="house"/>
+    <category value="floor"/>
+    <category value="mystery"/>
+    <category value="inside"/>
+    <category value="mysterious"/>
+    <category value="shine"/>
+    <category value="night"/>
+    <category value="haunted"/>
+    <category value="horror"/>
+    <category value="mystic"/>
+    <category value="darkness"/>
+    <category value="illuminated"/>
+    <category value="mood"/>
+    <category value="architecture"/>
+    <category value="empty"/>
+    <category value="terror"/>
+    <category value="view"/>
+    <category value="danger"/>
+    <category value="dim"/>
+    <category value="dull"/>
+    <category value="lightness"/>
+    <category value="magic"/>
+    <category value="obscure"/>
+    <category value="building"/>
+    <category value="interior"/>
+    <category value="old"/>
+    <category value="shadow"/>
+    <category value="abstract"/>
+    <category value="wall"/>
+    <category value="industrial"/>
+    <category value="background"/>
+    <category value="looking"/>
+    <category value="frame"/>
+    <category value="sunlight"/>
+    <category value="through"/>
+    <category value="contrast"/>
+    <category value="moody"/>
+    <category value="scary"/>
+    <category value="halloween"/>
+    <category value="gothic"/>
+    <category value="castle"/>
+    <category value="barn"/>
+    <category value="attic"/>
+    <category value="loft"/>
+    <category value="church"/>
+  </categories>
+</comment>

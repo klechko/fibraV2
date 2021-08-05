@@ -1,0 +1,53 @@
+.jumbotron {
+  background: url("../media/ulaz.jpg") no-repeat fixed center center/cover;
+  border-radius: 0;
+  height: 100vh;
+  line-height: 4;
+}
+.jumbotron .logo {
+  font-size: 5rem;
+}
+.jumbotron p {
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.2s ease-in;
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: 0.2s ease-in;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+#boxes .box {
+  transition: 0.2s ease-in;
+}
+#boxes .box img {
+  max-width: 450px;
+  height: auto;
+}
+#boxes .box p {
+  max-width: 450px;
+}
+#boxes .box:hover {
+  transform: scale(1.02);
+  transition: 0.2s ease-in;
+}
+
+@media (max-width: 600px) {
+  .jumbotron .logo {
+    font-size: 3.5rem;
+  }
+  .jumbotron p {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=_index.css.map */

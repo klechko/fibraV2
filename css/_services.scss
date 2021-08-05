@@ -1,0 +1,21 @@
+.service-section {
+  h3 {
+    font-size: 1.7rem;
+  }
+  .service {
+    max-width: 750px;
+    h5 {
+      font-weight: 600;
+      font-size: 1.6rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 2;
+    }
+  }
+}
+#projektiranje {
+  .service {
+    max-width: 600px;
+  }
+}

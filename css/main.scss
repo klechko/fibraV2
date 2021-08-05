@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+// font-family: 'Inconsolata', monospace; ZA LOGO
+// font-family: 'Open Sans', sans-serif;  ZA SVE OSTALO
+$bgHu: #00843D;
+$bgLight: #e8e8e8; // #e8e8e8
+$bgSec: #666;
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.bg-hu {
+	background:$bgHu !important;
+}
+.logo {
+	font-family: 'Inconsolata', monospace !important;
+}
+// Navigation
+.navbar {
+  font-size: 1rem;
+}
+.navbar-brand {
+  font-weight: 500;
+  font-size: 1.3rem;
+  transition: transform 0.3s ease-in-out;
+  &:hover,
+	&:focus {
+    transform: scale(1.03);
+	}
+}
+.nav-link,
+.dropdown-item {
+  text-decoration: none;
+  color: #ddd !important;
+  transition: color 0.2s ease-in-out;
+}
+.nav-link:hover,
+.dropdown-item:hover {
+  color: #fff !important;
+}
+.dropdown-item:hover {
+  background-color: #00843D;
+}
+.active {
+  font-weight: 600;
+  color: #fff !important;
+}
+#page-title {
+  margin-top: 8rem;
+}
+// Modal with carousel
+.modal-body {
+		padding: 0 !important;
+		box-sizing: border-box !important;	
+}
+.modal-content {
+	box-sizing: border-box !important;
+	border: 3px solid #222 !important;
+  .modal-footer {
+    .btn {
+      background-color: $bgSec !important;
+      transition: all 0.3s ease-in-out !important;
+      &:hover,
+      &:focus {
+        background-color: $bgHu !important;
+      }
+    }
+  }
+}
+img[data-target] {
+		cursor: pointer;
+}
+// Footer
+footer {
+  * {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+	}
+  .logo {
+    font-size: 1.3rem;
+    font-weight: 400;
+    transition: font-weight 0.3s ease-in-out;
+	}
+  .logo:hover {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+	}
+}
+// Imports
+@import 'index';
+@import 'about';
+@import 'contact';
+@import 'services';

@@ -1,0 +1,27 @@
+#about {
+  .container-fluid {
+    width: 70%;
+    p {
+      font-size: 1.2rem;
+      line-height: 2;
+    }
+    @media(max-width: 1200px) {
+      width: 95%;
+      p {
+        font-size: 1.1rem;
+        line-height: 1.9; // mozda staviti 1.9 ??
+      }
+    }
+  }
+  #people {
+    div {
+      .logo {
+        font-size: 1.3rem;
+      }
+      .titula {
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
